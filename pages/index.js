@@ -43,6 +43,10 @@ export default function SearchReports() {
         <a target="_blank" href={"https://github.com/konopimi/worker-fuse"}>
           {"https://github.com/konopimi/worker-fuse"}
         </a>
+        <div>
+          El worker y la libreria fuse estan ubicados en la carpeta public y así
+          mismo deben copiarse a la carpeta public correspondiente
+        </div>
         <div
           style={{
             display: "flex",
