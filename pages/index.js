@@ -26,7 +26,6 @@ export default function SearchReports() {
         style={{
           background: "rgba(200,200,200,0.38)",
           padding: 10,
-          // margin: 10,
           borderRadius: 10,
           backdropFilter: "blur(3px)",
           position: "sticky",
@@ -41,6 +40,9 @@ export default function SearchReports() {
           filter: "drop-shadow(0px 5px 0.3rem rgba(10,10,10,0.62))",
         }}
       >
+        <a target="_blank" href={"https://github.com/konopimi/worker-fuse"}>
+          {"https://github.com/konopimi/worker-fuse"}
+        </a>
         <div
           style={{
             display: "flex",
