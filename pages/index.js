@@ -20,7 +20,7 @@ export default function SearchReports() {
     setSearch(value);
   };
   return (
-    <div style={{ width: "min(1000px,100vw)", margin: "auto" }}>
+    <div style={{ width: "min(1000px,calc(100vw-40px))", margin: "auto" }}>
       <h1>BUSCADOR CON WORKER</h1>
       <div
         style={{
