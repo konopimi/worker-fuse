@@ -1,0 +1,8 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+label {
+  font-size: 62%;
+  color: rgb(60, 60, 60);
+}
