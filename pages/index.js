@@ -1,8 +1,7 @@
 import { initSearchWorker, initFuse } from "vStore/search";
 import { useEffect, useRef } from "react";
-import AssetsState, { assetsModels } from "vStore/assets";
+import AssetsState, { useAssets, assetsModels } from "vStore/assets";
 import { useSearch, setSection, setSearch, clearSearch } from "vStore/search";
-import { useAssets } from "vStore/assets";
 export default function SearchReports() {
   const { search, searchResult, section } = useSearch();
   const assets = useAssets();
